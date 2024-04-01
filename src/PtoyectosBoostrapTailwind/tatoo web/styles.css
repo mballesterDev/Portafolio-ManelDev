@@ -1,0 +1,46 @@
+.body{
+    
+    background-color: #ECD5CE;
+}
+
+
+.navbar-nav .nav-item {
+     margin-right: 80px; /* Adjust the value as needed */
+     
+    }
+.navbar-nav .nav-link:hover {
+        opacity: 0.7;
+        }    
+
+
+.sh img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.hr{
+    height: 4px;
+    background-color: black;
+    color: black;
+    border: none;
+    font-weight: bolder;
+}
+
+
+
+.titulo{
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 7px;
+    color: #966968 ;
+    
+}
+
+
+.cr {
+    width: 50%;
+    height: 500px; /* Ancho del carousel */
+    margin: auto; /* Centrar horizontalmente */
+    display: flex;
+    justify-content: center;
+}
+
+

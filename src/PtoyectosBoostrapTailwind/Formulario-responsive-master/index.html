@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Responsive</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="formulario">
+        <div class="posicionamiento">
+            <div class="datos1">
+                <h2>DATOS PERSONALES</h2>
+                <div class="f1">
+                    <div>
+                        <h4>APELLIDOS:</h4>
+                        <input type="text" name="apellidos" placeholder="Ingrese sus apellidos" id="apellidos">
+                    </div>
+
+                    <div>
+                        <h4>F.NACIMIEN:</h4>
+                        <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+                    </div>
+
+                    <div>
+                        <h4>N.I.F:</h4>
+                        <input type="text" name="nif" placeholder="Ingrese su N.I.F." id="nif">
+                    </div>
+                </div>
+                <div class="f2">
+                    <div>
+                        <h4>TELÉFONO:</h4>
+                        <input type="tel" name="telefono" placeholder="Ingrese su teléfono" id="telefono">
+                    </div>
+
+                    <div>
+                        <h4>EMAIL:</h4>
+                        <input type="email" name="correo_electronico" placeholder="Ingrese su correo "
+                            id="correo_electronico">
+                    </div>
+                    <div>
+                        <h4>DIRECCIÓN:</h4>
+                        <input type="text" name="direccion" placeholder="Ingrese su dirección" id="direccion">
+                    </div>
+                </div>
+                <div class="f3">
+                    <div>
+                        <h4>POBLACIÓN:</h4>
+                        <input type="text" name="poblacion" placeholder="Ingrese su población" id="poblacion">
+                    </div>
+
+                    <div>
+                        <h4>PROVINCIA:</h4>
+                        <input type="text" name="provincia" placeholder="Ingrese su provincia" id="provincia">
+                    </div>
+                    <div>
+                        <h4>N.I.A</h4>
+                        <input type="text" name="NIA" placeholder="Ingrese su N.I.A" id="NIA">
+                    </div>
+                </div>
+            </div>
+
+            <div class="datos2">
+               <div class="radio">
+                <h4>SEXO:</h4>
+                <label>
+                    <input type="radio" name="genero" value="hombre"> Hombre
+                </label>
+                <label>
+                    <input type="radio" name="genero" value="mujer"> Mujer
+                </label>
+            </div>
+         
+            <div class="sleccion">
+                <label for="seleccion"><h4>ESTUDIOS:</h4></label>
+                <select id="seleccion" name="seleccion">
+                    <option value="opcion1">ESO</option>
+                    <option value="opcion2">BACHILLERTAO</option>
+                    <option value="opcion3">LICENCIATURA</option>
+                    <option value="opcion4">TECNICO</option>
+                    <option value="opcion5">UNIVERSIDAD</option>
+                    <option value="opcion6">AUTODIDACTA</option>
+                </select>
+            </div>
+
+            <div class="textarea">
+                <label for="miTexto"><h4>Observaciones</h4></label>
+                <textarea id="miTexto" name="miTexto" rows="4" cols="50"></textarea>
+            </div>
+
+            <div>
+                <h4>USUARIO:</h4>
+                <input type="text" name="usuario" minlength="5" maxlength="10" placeholder="Ingrese su nombre de usuario" id="usuario">
+            </div>
+              
+            <div>
+                <h4>CONTRASEÑA:</h4>
+                <input type="password" name="contrasena" minlength="5" maxlength="10" placeholder="Ingrese su contraseña" id="contrasena">
+            </div>
+
+            <!-- Agregamos el botón de envío -->
+            <div class="enviar">
+                <input type="submit" value="Enviar">
+            </div>
+            
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
