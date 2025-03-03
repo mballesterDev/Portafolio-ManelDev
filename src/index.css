@@ -11,9 +11,38 @@
     background-color: rgb(74, 222, 128);
     border-radius: 10px;
     animation: Aumentar 3s linear forwards;
+    
 }
 
 @keyframes Aumentar {
     0% { width: 0; }
     100% { width: var(--w40); }
 }
+
+
+.logos{
+    width: 45px;
+    height: 40px;
+}
+
+.logosGrandes {
+    width: 37px;
+    height: 34px;
+}
+
+.box {
+    background-color: white;
+    margin-top: 2.5rem; /* mt-10 */
+    border-radius: 0.75rem; /* rounded-xl */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    display: flex;
+    padding: 1.5rem; /* p-6 */
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media (min-width: 1024px) { /* lg: */
+    .box {
+      gap: 1.5rem; /* gap-6 */
+    }
+  }
